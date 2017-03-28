@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+
+header {
+  background-color: 	#d2ab49;
+  padding: 30px;
+}
+
+body {
+  background-color: #dfb1b1;
+}
+
+.center {
+  text-align: center;
+}
+
+.container {
+  background-color: #ebd9d2;
+  padding-top: 50px;
+  min-height: 1000px;
+  max-height: 1000px;
+  overflow-y: scroll;
+}
