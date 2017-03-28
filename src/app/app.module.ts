@@ -6,12 +6,15 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { RecipiesDisplayComponent } from './recipies-display/recipies-display.component';
+import { UserInputComponent } from './user-input/user-input.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    RecipiesDisplayComponent
+    RecipiesDisplayComponent,
+    UserInputComponent
   ],
   imports: [
     BrowserModule,

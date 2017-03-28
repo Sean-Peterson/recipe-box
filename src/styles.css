@@ -1,8 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
 
+@font-face {
+font-family: 'food';
+src: url('./assets/food.ttf')  format('truetype');
+font-weight: bold;
+}
+
+h1{
+  padding: 25px;
+}
+
+h1:hover {
+  text-decoration: underline;
+}
+
 header {
-  background-color: 	#d2ab49;
-  padding: 30px;
+  background-color: #d2ab49;
+  padding: 20px;
+  font-size: 80px;
+  font-family: food;
+  text-shadow: 5px 5px 4px rgba(63,107,169, 0.5);
+
+
 }
 
 body {
@@ -13,10 +32,34 @@ body {
   text-align: center;
 }
 
+h3.center {
+  margin-top: 5px;
+}
+
 .container {
-  background-color: #ebd9d2;
-  padding-top: 50px;
+  background-color: #d2b485;
+  margin-top: 5%;
+  width: 80%;
   min-height: 1000px;
   max-height: 1000px;
   overflow-y: scroll;
+}
+
+#edit-form {
+  padding: 0.1px 25px 15px 25px;
+}
+
+.recipies {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.recipie-info {
+  font-size: 1.2em;
+}
+
+.recipie-title {
+  font-size: 3em;
+  text-shadow: 1px 1px 1px rgba(63,107,169, 0.5);
+  font-family: food;
 }
